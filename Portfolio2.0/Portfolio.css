@@ -1,0 +1,350 @@
+*{
+    background-color: #1f242d;
+    color: white;
+}
+.menu{
+    top: 0;
+    height: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: inline;
+    margin-left: 20px;
+    box-shadow: 50px ;
+    position: fixed; 
+}
+nav {
+    margin-left: 10px;
+    padding-left: 600px;
+    margin-bottom: 40px;
+    
+} 
+nav a{
+    color: darkcyan;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-left: 3px;
+font-size:large;
+
+}
+nav a:hover{
+    color: blue; 
+    text-decoration: underline;
+
+}
+/* h2{
+    text-align: center;
+
+} */
+.pres {
+text-align: justify;
+margin: 0px 500px 300px 10px;
+position: relative;
+align-items:center ;
+}
+.pres img{
+    top: 0;
+    margin-top: 0px;
+    width: 300px;
+    margin: 0% auto;
+    position: relative;
+    padding: 0px 10px 20px 100px;
+    
+} 
+.pres {
+    padding: 0px 0px 90px 30px ;
+    margin: 60px;
+}
+.mot{
+    padding-top: 55px ;
+    padding-bottom: 40px;
+}
+.pres h2{
+    color: aqua;
+}
+.pres p{
+    max-width: 500px;
+}
+div img{
+    width: 200px;
+    float: right;
+    margin: 10px;
+    
+}
+.réseau a {
+    display: inline-flex;
+    margin: 5px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+border-radius: 50%;
+text-decoration: none;
+margin-top: 40px;
+
+}
+.réseau a:hover{
+    background-color: blue;
+}
+.mot button{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: blue;
+}
+.mot button:hover{
+background-color: darkkhaki;
+}
+.services{
+    padding: 40px;
+    
+}
+.services h2{
+margin: 5px 0 12px;
+position: relative;
+display: flex;
+text-align: center;
+justify-content: center;
+font-size: larger;
+}
+.dev{
+    padding: 10px;
+    margin: 100px;
+    margin-left: 80px;
+}
+.dev span{
+font-size: large;
+font-weight: 800;
+}
+.dev p{
+    max-width: 400px;
+    max-height: 400px;
+}
+.design{
+    margin: 50px;
+    padding: 50px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.design span{
+margin-right: 250px;
+    float: right;
+    margin-top: 50px;
+margin-left: 20px;
+    font-size: large;
+    font-weight: 800;
+}
+.design p{
+    margin: 40px 80px;
+    margin-right: 0;
+    padding:  70px;
+    margin-left: 550px;
+    max-width: 700px;
+    max-height: 700px;
+    
+}      
+.services section .design img{
+    width: 400px;
+    
+    height: 300px;
+    padding: 60px;
+    display: flex;
+    margin-left: 0;
+    border-radius: 40px;
+    float: left;
+}
+.services img{
+margin: 10px 40px 50px 100px;
+max-width: 400px;
+max-height: 400px;
+padding: 60px;
+float: right;
+border-radius: 60px;
+}
+.services span{
+    background-color: #1f242d;
+} 
+.video span{
+    font-size: large;
+    font-weight: 800;
+    margin-left: 90px;
+    
+}
+.video p{
+    margin: 40px 100px 180px 80px;
+    max-width: 400px;
+    max-height: 400px;
+}
+.video img{
+    padding-top: 0%;
+    margin-top: 0;
+    width: 400px;
+    height: 300px;
+
+}
+.comp h3{
+    margin-top: 40px;
+    width: 170px;
+    height: 25px;
+    margin-left: 600px;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    
+    
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-right: 100px;
+}
+.progress-bars{
+    margin-bottom: 20px;
+}
+.skills .progress-bars .text{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+text-transform: uppercase;
+margin-bottom: 10px;
+font-size: 15px;
+}
+
+
+.text .pour{
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 45px;
+}
+/* .skills .progress-bars .progress-bar span{
+height: 100%;
+border-radius: 30px;
+
+width: 0;
+background-color: rgb(51, 255, 0);
+display: block;
+position: absolute;
+
+}  */
+
+.pour progress{
+    border-style: solid;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 200px;
+    width: 100%;
+    height: 15px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(250, 247, 243);
+    border-width: 2px;
+    border-color: dark;
+}
+.pour img{
+ 
+    width: 30px;
+    height: 30px;
+}
+/* .skills .progress-bars .progress-bar{
+    border-style: solid;
+    margin-left: 100px;
+    margin-right: 10px;
+    width: 80%;
+    height: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    background-color: antiquewhite;
+    border-width: 1px;
+    border-color: dark;
+
+}  */
+
+h4{
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 300px;
+    justify-items: center;
+    border-radius: 10px;
+    box-shadow: #1f242d;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.box{ 
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    position: relative;
+height: 150px;
+    background-color: cadetblue;
+}
+.box h4{
+    background-color: cadetblue;
+    margin-left: 0px;
+}
+.box p{
+    background-color: cadetblue;
+    margin-top: 80px;
+    margin-left: 0px;
+    
+}
+.contact{
+    margin-bottom: 100px;
+}
+.contact h4{
+    margin-top: 100px;
+    
+}
+.cont input{
+    margin-left: 450px;
+    margin-top: 60px;
+    justify-items: center;
+    border-radius: 10px;
+width: 400px;
+height: 20px;
+}
+.cont textarea{
+    margin-top: 60px;
+    width: 400px;
+    height: 100px;
+    margin-left: 450px;
+    margin-bottom: 40px
+}
+.contact button{
+    background-color: chocolate;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 600px;
+
+}
+footer,.pied,h5{
+    background-color: rgb(42, 165, 48);
+}
+footer .pied{
+    display: flex;
+    justify-content: center;
+    flex-direction: inherit;
+    margin-right: 600px;
+    background-color: rgb(42, 165, 48);
+}
+footer .pied a{
+display: flex;
+column-gap: 30px;
+background-color: rgb(42, 165, 48);
+margin-left: 80px;
+margin-right: 90px;
+margin-top: 50px;
+}
+.pied a{
+    color: aliceblue;
+margin-bottom: 40px;
+}

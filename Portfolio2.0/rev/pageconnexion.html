@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="connexon.css">
+<script src="connexion.js"></script>
+
+    <title>connexion</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="inscription.html">S'inscrire</a>
+
+        </nav>
+    </header>
+    <fieldset>
+        <h1>login</h1>
+        <div class="saisie">
+            <center><span id="mai"></span></center>
+            <input type="email" placeholder="Entrer votre email" id="emai" required><br>
+            <span id="pas"></span>
+            <input type="password" id="passwd" placeholder="Entrer votre mot de passe" required><br>
+        </div>
+        <div class="remb">
+        <input type="checkbox" name="" id="souv"><label for="">Remember me</label>
+        <a href="">Forget password?</a>
+        </div>
+        <button  onclick="log();" type="submit">login</button>
+        <p>Don't have an account?   <a href="inscription.html">Create your account</a></p>
+    </fieldset>
+
+
+    
+</body>
+</html>

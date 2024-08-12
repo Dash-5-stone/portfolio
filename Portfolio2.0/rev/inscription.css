@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-color: #1f242d;
+    height: 40px;
+}
+header nav{
+    
+    margin-left:90% ;
+    
+}
+header nav a{
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+color: #ddd;
+font-size: larger;
+}
+header nav a:hover{
+    color: blue;
+}
+fieldset{
+    
+width: 450px;
+height: 500px;
+border-radius: 20px;
+margin: 10% auto;
+background-color: #1f242d;
+color: dark;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.saisie input{
+    margin:10px 60px ;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.saisie span{
+    color: red;
+    text-align: center;
+    align-items: center;
+}
+fieldset button{
+    background-color: #1f242d;
+    width: 300px;
+    color: cadetblue;
+    height: 30px;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left:100px ;
+    
+}
+fieldset button:hover{
+    background-color: #ddd;
+}
+p{
+    text-align: center;
+    color: #fff;
+}
+p a{
+    text-decoration: none;
+}
+
+

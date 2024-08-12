@@ -1,0 +1,18 @@
+*{
+    background-color: #ddd;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 15% auto 20px auto;
+}
+a{
+    display: flex;
+    text-align: center;
+    color: blueviolet;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    margin-left:650px;
+    margin-top: 10px;
+}
